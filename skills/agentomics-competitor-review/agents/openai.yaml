@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agentomics Competitor Review"
+  short_description: "Review and prioritize competitors in the canonical sheet"
+  default_prompt: "Use $agentomics-competitor-review to review the supplied competitor and add or update it in the canonical Agentomics Competitors Google Sheet."

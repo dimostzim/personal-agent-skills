@@ -1,0 +1,10 @@
+# Machine-specific installation history and backup locations
+/installation.json
+
+# Local credentials and generated files
+.env
+.env.*
+.venv/
+.DS_Store
+__pycache__/
+*.py[cod]
