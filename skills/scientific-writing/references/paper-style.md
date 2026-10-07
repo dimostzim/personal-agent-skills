@@ -1,5 +1,7 @@
 # Calibration from the User's Papers
 
+Local source texts for all five papers are linked in [source-library.md](source-library.md#papers-used-to-calibrate-the-users-writing). Use the source text to inspect a passage, rather than relying only on the observations below.
+
 Reviewed on 2026-10-03. Use these sources to understand the user's argument and prose, not to import their scientific facts into unrelated work. The user's explicit preference for plain language takes precedence over occasional expansive or promotional wording in a source.
 
 ## ParaDISM

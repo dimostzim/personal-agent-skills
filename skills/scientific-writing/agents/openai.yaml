@@ -1,4 +1,4 @@
 interface:
   display_name: "Scientific Writing"
-  short_description: "Evidence-bound manuscript writing"
-  default_prompt: "Use $scientific-writing to draft or revise manuscript text with calibrated claims and rigorous evaluation logic."
+  short_description: "Clear scientific papers and theses"
+  default_prompt: "Use $scientific-writing to revise this scientific text for its document type, with clear explanations, accurate authorship, and claims supported by the evidence."

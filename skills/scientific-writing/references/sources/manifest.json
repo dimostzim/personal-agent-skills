@@ -1,0 +1,155 @@
+{
+  "packaged_on": "2026-10-04",
+  "files": [
+    {
+      "path": "essays/bitter-lesson.html",
+      "bytes": 7297,
+      "sha256": "f1baabbabfde3e2a368104fe91cb7efcf3566e8a9dd2c5fe50ccd1d96ec1acb6"
+    },
+    {
+      "path": "essays/bitter-lesson.txt",
+      "bytes": 6935,
+      "sha256": "8d271d2b33e9ec36662673c3c3c77a41b8d976dbbd415436c1a996c656d91bd3"
+    },
+    {
+      "path": "essays/era-of-experience.pdf",
+      "bytes": 226196,
+      "sha256": "af7c19261a953b194acd69d6c594f1ee64f8f5175a0df000212d8fb3cc409a63"
+    },
+    {
+      "path": "essays/era-of-experience.txt",
+      "bytes": 42806,
+      "sha256": "a7a4f1d88871af4a0080c2a83af8bfc5fe82e9307919cb24a6e550ba01c9548a"
+    },
+    {
+      "path": "essays/sutton-jagi-2020.pdf",
+      "bytes": 1190556,
+      "sha256": "2d028cfb07c6d548c70def9a88cbce576e38fdea4018c8c63d8ab3f747677bfb"
+    },
+    {
+      "path": "essays/sutton-jagi-2020.txt",
+      "bytes": 293402,
+      "sha256": "f42f76fcfa80fa0857935b2fbdda2071f5920c16ce9c494c11186d2d02760b6e"
+    },
+    {
+      "path": "papers/agentomics.pdf",
+      "bytes": 1758195,
+      "sha256": "0245eed326567774b2b397456b514837cc1fcecb296e7985cbb2b8531e3738c0"
+    },
+    {
+      "path": "papers/agentomics.txt",
+      "bytes": 56325,
+      "sha256": "efc7433478be9a3ad61626957977d456485cdcfe70a6dffa4b261cf500baa950"
+    },
+    {
+      "path": "papers/agentomics.xml",
+      "bytes": 135354,
+      "sha256": "a46b0239a39d3f0288451066ce2a8ff8440bdce070f9b238083a16f9e1e5744d"
+    },
+    {
+      "path": "papers/mirbench.pdf",
+      "bytes": 2695045,
+      "sha256": "5b16a0bba5a9427acf50a69baa2a08184d8cc029a14efd40c72d240c9119e63f"
+    },
+    {
+      "path": "papers/mirbench.txt",
+      "bytes": 63715,
+      "sha256": "648bee08f29cc6e232776a842f1eda68ea2c7cd0ab0b116f3b708e631bbcadf0"
+    },
+    {
+      "path": "papers/mirbench.xml",
+      "bytes": 134404,
+      "sha256": "5f068a8c9dd09e047c8d83eaa5810b674a0193f843e9eb9929dae95774b7d118"
+    },
+    {
+      "path": "papers/mirbind2.txt",
+      "bytes": 51137,
+      "sha256": "282797f4e1f202ffcdb953c06e8db97b12afe088652b412e3ce94197ed32efab"
+    },
+    {
+      "path": "papers/mirbind2.xml",
+      "bytes": 105076,
+      "sha256": "07b406a777a6af4f7890ed7d19ef11b34ee616080038598ed97632990a743fcf"
+    },
+    {
+      "path": "papers/paradism-metadata.json",
+      "bytes": 680,
+      "sha256": "b6edea27ce0928e85c62686a90b52117542279c13480af801ab8e4a1f9e269ff"
+    },
+    {
+      "path": "papers/paradism.txt",
+      "bytes": 71463,
+      "sha256": "85d3b6a624064ddb8f00f9370d680b6b76c851d6f17ba75bc1d088adfe4f9404"
+    },
+    {
+      "path": "papers/premirbench-metadata.json",
+      "bytes": 657,
+      "sha256": "d52201ee62eb66a28dd4ae59ef362e230631c921cedfecadc29a783fccaf6a26"
+    },
+    {
+      "path": "papers/premirbench.txt",
+      "bytes": 43660,
+      "sha256": "ba8bfbbb3bc8532d04019e1e2e35b0f59f891440896db55c792923df9441d38a"
+    },
+    {
+      "path": "theses/Dohare_Shibhansh_PhD.pdf",
+      "bytes": 12922469,
+      "sha256": "6b165a3480915c32b97f3894394a0033175f60c9996ca1daaafdf0dd4605b890"
+    },
+    {
+      "path": "theses/Dohare_Shibhansh_PhD.txt",
+      "bytes": 282858,
+      "sha256": "2686c27fd17e548faadd747f936303b9d104647c080b96d3eb577df597eecd77"
+    },
+    {
+      "path": "theses/FernandoPhD.pdf",
+      "bytes": 14329812,
+      "sha256": "6c4dff5926e6ac4140aa667c434585f3ee3c7f9f892c4747a9d0cf545bf648e1"
+    },
+    {
+      "path": "theses/FernandoPhD.txt",
+      "bytes": 658645,
+      "sha256": "9fc71c9f5254e63ebd6d7bc4a3b375bbe773a7d5feb9ea155d2cd4c60e767557"
+    },
+    {
+      "path": "theses/Mahmood_2017_PhD.pdf",
+      "bytes": 43219548,
+      "sha256": "b59ff2889833a0641a6f5bd7f456d67cc4c94ff0c7ac8d32f5200a4b87aaaa7d"
+    },
+    {
+      "path": "theses/Mahmood_2017_PhD.txt",
+      "bytes": 412746,
+      "sha256": "f87f5910a4729a2640c19f7805e536afafdc521ecc6a843e529860a6c69fa950"
+    },
+    {
+      "path": "theses/Silver_2009_PhD.pdf",
+      "bytes": 10837663,
+      "sha256": "1f0671060b386f43221c969f124afc2176a31340b620fe05852dc99c5c0394a8"
+    },
+    {
+      "path": "theses/Silver_2009_PhD.txt",
+      "bytes": 296323,
+      "sha256": "59eb2ae717a1d466d4a4983e1d9f8e19db53c7d50b760474ba8ed80828b2fb02"
+    },
+    {
+      "path": "theses/Vasan_Gautham_202609_PhD.pdf",
+      "bytes": 15025918,
+      "sha256": "eb3df7103eb0d23841e58cf3ef02ede57e52ebab51256d8669aa85332565c464"
+    },
+    {
+      "path": "theses/Vasan_Gautham_202609_PhD.txt",
+      "bytes": 394065,
+      "sha256": "44c55badc35bf09f09f28162461577cbdfd86fabe7fe551d498c3b30c52097fa"
+    },
+    {
+      "path": "theses/White_2015_PhD.pdf",
+      "bytes": 15440742,
+      "sha256": "cb2dd3f97ba74bbee83e1b8ba122527484257948a556dbe61a5926a523dab827"
+    },
+    {
+      "path": "theses/White_2015_PhD.txt",
+      "bytes": 446700,
+      "sha256": "e90dafc1b8d4b291a5f238a56d46af04e01396eca2cd1c20ca08b440729153a0"
+    }
+  ]
+}

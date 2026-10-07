@@ -1,161 +1,60 @@
-# Section Patterns
+# Section Guidance
 
-## Contents
-
-- Abstract
-- Introduction
-- Methods
-- Results
-- Discussion
-- Conclusion
-- Figure Captions
+Choose the document type first. These are options for organizing information, not a checklist to reproduce in every paragraph.
 
 ## Abstract
 
-Use a compact problem-to-evidence chain:
+Give the reader the research question, the work performed and the findings needed to understand its contribution. Define an unfamiliar task or term before relying on it. Preserve comparisons, meaningful numerical results, uncertainty and scope.
 
-1. Domain.
-2. Specific bottleneck or artifact.
-3. Consequence for model, pipeline, diagnosis, or interpretation.
-4. Introduced resource and mechanism.
-5. Evaluation scope.
-6. Quantitative result.
-7. Availability if relevant.
+- **Thesis:** connect the research strands to the central question; identify the student's contribution using `I` where supported and joint work explicitly. Include enough context for adjacent-field examiners. Preserve completed versus planned work.
+- **Paper:** use `we` or the method/experiment as subject. Focus on this study and follow the venue's structured or unstructured format. Avoid a catalogue of the thesis's other projects.
 
-For structured abstracts:
+Do not force a limitation-led opening, a mechanism that was not tested, an availability statement or a fixed number of sentences. A numerical result is useful when it carries the main finding, not as a quota.
 
-- `Motivation` or `Background`: field context plus exact bottleneck.
-- `Results`: method/resource, mechanism, evaluation, numerical result.
-- `Availability`: package, code, model, data, or web tool.
-- `Conclusions`: measured advance plus practical interpretation.
+## Introduction and background
 
-Avoid:
+Help the reader understand the scientific object, existing knowledge, the question being asked and the work that addresses it. Prior work can be organized by concepts, assumptions, methods or evidence; chronology is useful when the development of an idea matters.
 
-- broad importance without a failure mode;
-- `challenges remain`;
-- `novel robust framework` without mechanism;
-- no numbers when results exist.
+A thesis may teach foundational concepts, use worked examples and explain how several studies relate. A paper generally needs a narrower account. Do not reject useful thesis background merely because it resembles a focused review.
 
-## Introduction
+State why a question remains open when that motivates the work. Do not turn every previous method into a failure or add a stock criticism to make the new method appear necessary. Cite external knowledge where it supports the claim. A list of citations is not an explanation.
 
-Move from field context to technical decision.
-
-Preferred progression:
-
-1. Establish setting.
-2. Define the relevant mechanism or prediction task.
-3. Describe current approaches.
-4. Identify the concrete limitation, bias, artifact, ambiguity, or missing capability.
-5. Explain why it matters downstream.
-6. Show why existing approaches do not remove it.
-7. State the study intervention and what it tests.
-
-The last paragraph should state actions, not aspirations.
-
-Good last-paragraph pattern:
-
-`In this study, we [introduce/curate/evaluate] [resource], which [mechanism]. We evaluate it using [datasets/baselines/controls] and test whether [failure mode] is reduced.`
+Close with the actual study question and contribution, or a thesis roadmap that explains the scientific relationships. Avoid unsupported promises of future impact.
 
 ## Methods
 
-Methods should read as reproducible execution.
+Make the procedure reproducible at the requested level and explain the decisions needed to understand it. Include relevant data sources, selection rules, preprocessing, partitions, inputs and outputs, architecture, parameters, fitting and selection procedures, comparators, metrics and statistical analysis.
 
-Include when applicable:
+Explain why a consequential rule is present. Interpret mathematical quantities and distinguish definitions from empirical estimates. State relevant departures from an ideal formulation. Do not infer a property of the actual implementation solely from a related theorem.
 
-- dataset names, sources, versions, and access dates;
-- inclusion, exclusion, and filtering logic;
-- train, validation, and test split logic;
-- exact inputs and outputs;
-- thresholds and parameters;
-- model architecture and optimization details;
-- baselines and controls;
-- metric definitions and statistical tests;
-- what was hidden, held out, or protected from leakage.
-
-Define tasks operationally:
-
-- `Given X, predict Y.`
-- `For each sample, compute Z.`
-- `A read/item/example is assigned only if conditions A and B are met.`
-
-When a method has a failure state, name it. The user's papers often make conservative uncertainty explicit rather than hiding it.
+Keep task-defining details and important selection rules in the main account. Use tables, appendices or supplementary material for exhaustive grids when allowed. Avoid incidental debugging or file-history narration.
 
 ## Results
 
-Use claim headings.
+Organize the evidence around the question or comparison. State enough of the setup to interpret the result without repeating all Methods. Descriptive headings, questions and supported claim headings are all acceptable.
 
-Good heading forms:
+Explain why the baseline is informative and what the metric measures. Report effect sizes, denominators and uncertainty at the granularity needed for the claim. Keep aggregation, displayed-setting selection, failures and exclusions clear.
 
-- `[Artifact] can affect [task] performance`
-- `[Method] corrects [identified failure mode]`
-- `[Representation/pretraining/design choice] improves [specific task]`
-- `[Pipeline] mitigates [artifact]`
-- `[System] produces [validated artifact]`
+Distinguish the observed pattern from an explanation of it. A diagnostic association can motivate a test without proving a mechanism. Keep contrary observations, partial successes and null comparisons when they matter. Let the unresolved question explain the move to another experiment; do not manufacture a smooth success narrative.
 
-Each subsection should:
-
-1. State the test purpose.
-2. Describe setup.
-3. Name baseline or control.
-4. Report result with numbers.
-5. Interpret result mechanistically or statistically.
-6. State caveat, tradeoff, or remaining ambiguity.
-
-Do not just state that performance improved. Say what the result rules in or rules out.
-
-Good result moves:
-
-- `To evaluate whether...`
-- `As a baseline...`
-- `This model cannot learn [missing signal], so above-random performance indicates [artifact].`
-- `The improvement was consistent across...`
-- `The lower sensitivity reflects...`
-- `This result is consistent with...`
+Use the figure to support the claim, not as a substitute for stating it. Explain notable patterns rather than narrating every plotted point. Avoid imposing a six-step result template or a caveat at the end of every paragraph.
 
 ## Discussion
 
-Synthesize rather than repeat.
+Interpret the findings in relation to the question and prior work. Explain the conditions under which the conclusion holds, including costs, alternatives and unanswered questions that materially change it.
 
-Progression:
+For a thesis, synthesize across chapters: shared lessons, complementary findings and differences that prevent direct comparison. Distinguish separate demonstrations from a proposed integration. For a paper, keep the discussion tied to that study's contribution and scope.
 
-1. Main finding.
-2. Why it matters for the task.
-3. Mechanism suggested by the evidence.
-4. Tradeoff.
-5. Concrete limitations.
-6. Future work tied to limitations.
-
-Concrete limitations are preferred:
-
-- single model backbone;
-- one input format;
-- one reference set at a time;
-- limited hardware or runtime;
-- possible remaining dataset-specific effects;
-- false negatives under specific evidence conditions.
-
-Avoid boilerplate limitations.
+Use specific limitations rather than boilerplate. Do not repeat the same disclaimer at each mention once the relevant boundary is clear. Proposed work should identify the remaining question and the observation or comparison needed to answer it; it remains proposed.
 
 ## Conclusion
 
-Return to the failure mode and evidence.
+State what was established, within what scope, and what follows. A thesis conclusion can integrate several research questions and identify remaining work. A paper may need only a short conclusion or no separate conclusion, depending on its format.
 
-Conclusion pattern:
+Do not reproduce all results or end with generic potential. Keep first-person voice appropriate to the document and preserve authorship.
 
-`[Resource] [does action] by [mechanism]. Across [evaluation scope], it [measured result]. This supports [calibrated interpretation], while [specific limitation/tradeoff] remains.`
+## Figure captions and table notes
 
-Avoid ending with generic potential or broad future impact.
+Explain the comparison, panels or quantities, units, sample/run counts, aggregation and uncertainty needed to read the display. Identify hypothetical examples as such. Make exclusions and conditional summaries visible when relevant.
 
-## Figure Captions
-
-Captions should explain what is compared and why it matters.
-
-Include:
-
-- dataset or experiment;
-- axes, rows, columns, or panels;
-- metric definitions when needed;
-- primary visual interpretation;
-- what ambiguity, artifact, or tradeoff the figure shows.
-
-Do not write captions that only name plot elements.
+A brief supported interpretation can help, but captions need not make a mechanistic claim or repeat the full Discussion. Do not force first-person ownership into a description of a figure.

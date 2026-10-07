@@ -25,6 +25,8 @@ are all the same thing, but worded differently. Avoid such expressions, prefer t
 
 Commit only when the user explicitly requests a commit. Push only when the user explicitly requests a push; a commit request does not authorize pushing. Once requested, proceed without asking for additional approval. Stage only the changes needed for the requested commit, unless the user asks for staging separately.
 
+Use short, all-lowercase commit messages. Never add Codex or Claude Code as an author or co-author, or add AI co-author trailers.
+
 ## Collaboration
 
 Ask the user about consequential choices affecting scope, architecture, public behavior, compatibility, or data. Resolve routine, reversible details from the project and existing decisions. Be direct about concrete tradeoffs and simpler alternatives; do not invent objections merely to disagree.

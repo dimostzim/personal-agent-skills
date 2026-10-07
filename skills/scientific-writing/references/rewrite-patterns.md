@@ -1,112 +1,63 @@
-# Rewrite Patterns
+# Rewrite Examples
 
-Use these patterns to convert generic academic prose into the target manuscript style.
+These are illustrations of editorial choices, not phrases to copy or facts to import into another study. Use a rewrite only when its factual content is supported. Preserve the original claim; changing a generic sentence into a different scientific claim is not a style edit.
 
-## Generic Field Importance
+## The same action in a thesis and a paper
 
-Weak:
+Impersonal: `This study presents an investigation into whether evolutionary scores improve prediction.`
 
-`MicroRNAs are important regulators of gene expression, and accurate prediction of their targets remains challenging.`
+Thesis, with documented individual work: `I investigated whether evolutionary scores improve prediction.`
 
-Better:
+Paper, with collective authorship: `We investigated whether evolutionary scores improve prediction.`
 
-`Although experimentally identified miRNA-target interactions provide positive examples, experimentally confirmed non-binding pairs are difficult to obtain, forcing many training datasets to generate negatives in silico.`
+The following sentences must identify the scores, prediction task, comparison and results at the detail needed by the artifact. Do not convert a collaborator's development work into the student's invention.
 
-Pattern:
+## Explain an operation
 
-`Although [field/resource] provides [useful signal], [missing evidence/technical constraint] forces [imperfect workaround], which can introduce [failure mode].`
+Compressed: `Agentomics performs iterative agentic optimization of the model-development workflow.`
 
-## Vague Model Improvement
+Explained: `Agentomics uses language-model agents to write, run and revise model-training code. Validation results guide model selection and the next development attempt.`
 
-Weak:
+Use concrete actions instead of adding adjectives to a system label. Retain implementation details when they affect the claim.
 
-`Our model improves prediction performance and provides insight into functional targeting.`
+## Make the control's logic visible
 
-Better:
+Compressed: `The reduced-input classifier exposed a benchmark artifact.`
 
-`The pretrained target-site features improved transcript-level repression prediction over the same architecture trained from random initialization, indicating that site-level binding representations carry information relevant to functional repression.`
+Explained, where this diagnostic was performed: `The classifier received only the miRNA sequence. It could not compare the guide with its target, yet it predicted the interaction label. We therefore examined how control pairs were sampled.`
 
-Pattern:
+The measured performance and sampling findings belong in the actual results passage. Do not infer the particular artifact from reduced-input performance alone.
 
-`[Design choice] improved [specific task] over [control], indicating/suggesting [calibrated mechanism].`
+## Preserve a mixed result
 
-## Promotional Method Claim
+Overbroad: `Evolutionary information improves interaction prediction.`
 
-Weak:
+Scoped, when supported: `Adding target profiles improved average precision for new target contexts, but reduced it for unfamiliar guides.`
 
-`This pipeline robustly solves alignment errors in homologous regions.`
+Retain the measured differences, evaluation definitions and uncertainty in the surrounding account. Do not replace a mixed finding with an overall success claim.
 
-Better:
+## Separate an observation from its explanation
 
-`The pipeline reduces misalignment-driven false variant calls by assigning reads only when sequence-specific positions provide unambiguous evidence for their origin; reads without such evidence are reported separately rather than forced into a locus.`
+Overstated: `The diagnostic proves why the model fails.`
 
-Pattern:
+Calibrated: `The diagnostic changed when performance declined. This association suggests a possible explanation, but the experiment did not isolate its effect.`
 
-`[Method] reduces [artifact] by [mechanism]; cases without [evidence condition] are [explicit uncertainty behavior].`
+Name the actual diagnostic and any contrary observation. Use a direct causal statement only when the design supports it; do not append a generic disclaimer to every result.
 
-## Unsupported Generalization
+## Explain a dependent design choice
 
-Weak:
+Inventory: `The algorithm uses reinitialization, a utility measure and a protection period.`
 
-`These results show that the method generalizes well.`
+Explanation structure: `The method replaces units with low utility. Newly initialized units would also have low utility, so a protection period allows them to contribute before they become eligible for replacement.`
 
-Better:
+This is a methodological illustration derived from the thesis examples. For another method, explain its actual dependency rather than borrowing this mechanism.
 
-`The improvement was observed across datasets generated from independent experimental protocols, suggesting that the model is not only fitting a single data source.`
+## Connect chapters
 
-Pattern:
+Roadmap only: `The next chapter presents the second method.`
 
-`The improvement was observed across [independent settings], suggesting [limited generalization claim].`
+Scientific connection: state what the preceding chapter established, the remaining question or complementary task, and what the next chapter tests. If the projects are independent applications of a common approach, say that; do not claim one caused or enabled the other without evidence.
 
-## Hidden Tradeoff
+## Repair a passage
 
-Weak:
-
-`The method improves variant calling in homologous regions.`
-
-Better:
-
-`The method increased precision by avoiding forced assignments in ambiguous regions, but this conservative rule reduced sensitivity because some true reads lacked unambiguous sequence-specific evidence.`
-
-Pattern:
-
-`[Metric A] improved because [mechanism], but [metric B] decreased because [tradeoff mechanism].`
-
-## Review-Style Prior Work
-
-Weak:
-
-`Several models have been developed for this task, including CNNs, ResNets, and attention networks.`
-
-Better:
-
-`Several models have been developed for this task, but many were trained on datasets where negative examples were generated in silico, making their reported performance sensitive to artifacts in negative-sampling strategy.`
-
-Pattern:
-
-`Several [methods/resources] exist, but [shared assumption or limitation] makes [interpretation/evaluation] sensitive to [failure mode].`
-
-## Empty Future Work
-
-Weak:
-
-`Future work should explore this further.`
-
-Better:
-
-`Future benchmarks should report results separately across experimental protocols, because the remaining performance differences may reflect protocol-specific interaction distributions rather than model architecture alone.`
-
-Pattern:
-
-`Future work should [specific action], because [observed limitation or unresolved alternative explanation].`
-
-## Paragraph Repair Procedure
-
-When rewriting a paragraph:
-
-1. Underline the actual claim.
-2. Identify any failure mode or constraint needed to understand the claim.
-3. Explain the mechanism or design choice when relevant and supported.
-4. Preserve or add the available evidence or comparison; flag missing facts rather than inventing them.
-5. Remove promotional adjectives.
-6. End where the paragraph's purpose is complete; use a consequence, tradeoff, or calibrated interpretation when it helps.
+Identify the reader difficulty first. It may be an undefined object, missing reasoning, unclear comparison, unsupported claim, repetition or ownership ambiguity. Repair that difficulty, preserve factual content and necessary citations, and stop when the passage is clear. Do not run every paragraph through a fixed sequence of rhetorical moves.

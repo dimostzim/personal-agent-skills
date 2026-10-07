@@ -1,28 +1,39 @@
 ---
 name: scientific-writing
-description: Draft, edit, or review scientific manuscripts, abstracts, captions, rebuttals, and grant text in the user's direct, technical, evidence-bound style. Preserve mechanisms, evaluation logic, and qualifications; remove flowery language and unsupported promotion.
+description: Draft, edit, or review scientific papers, theses, abstracts, captions, rebuttals, and grant text in the user's direct scientific style. Distinguish thesis and paper conventions; explain methods and evidence clearly while preserving results, uncertainty, citations, and authorship.
 ---
 
 # Scientific Writing
 
-Preserve the user's scientific voice: concrete explanations, consistent terminology, explicit methodological choices, and claims bounded by the evidence. Use the supplied manuscript and the style references below. Improve clarity without flattening technical detail or making the prose promotional.
+Make the scientific reasoning easy to follow. Preserve the author's meaning, exact terminology, evidence, and contribution boundaries. Improve the explanation without making the prose promotional or imposing a formula on every paragraph.
 
-## Core rules
+## Choose the document type
 
-- State what was studied, changed, measured, or observed. Explain the relevant limitation and mechanism. Background should help the reader understand the question or a later decision; an opening need not follow a fixed template.
-- Use plain, precise scientific language. Remove flowery metaphors, grand declarations, decorative transitions, vague importance claims, and generic praise. Avoid phrases such as “revolutionizes,” “unlocks the potential,” “powerful framework,” “sheds light,” and “paves the way.” Prefer the actual action or finding.
-- Name the model, dataset, task, metric, or comparison when that specificity matters. Keep the same term for the same concept; do not cycle through synonyms for elegance.
-- Explain why the evaluation answers the question: controls, baselines, data partitions, and metrics. Keep binding versus repression, validation versus held-out testing, and prediction versus experimental confirmation distinct where relevant.
-- Preserve numbers, units, denominators, uncertainty, citations, and conditions. State tradeoffs and exceptions alongside gains. Never invent a mechanism, result, citation, or limitation to complete a rhetorical pattern.
-- Match claim strength to the evidence. Distinguish observation from interpretation; use strong wording when directly supported, and qualified wording for untested mechanisms or transfer. “Robust,” “novel,” and “state-of-the-art” need a specific, defensible basis.
-- Give each paragraph a clear purpose and a logical connection to its neighbors. Allow technical sentences of the length needed for precision. Do not force a fixed number of criteria, a failure-mode opening, or a consequence sentence into every paragraph.
-- Respect the requested edit scope and the venue's format. Preserve the author's meaning and degree of certainty; flag missing information rather than silently changing the science.
+Infer the type from the request and artifact; ask only if the distinction would change the work and remains unclear. Read [document-types.md](references/document-types.md) for the relevant mode.
+
+- **Thesis/dissertation:** use `I` for the student's documented actions and `we` for clearly identified collaboration. Give concepts, methods and chapter relationships the explanation the reader needs.
+- **Journal/conference paper:** use `we` for the authors' work, or make the method, data or experiment the subject. Do not introduce the thesis's `I` voice. Focus the account on the paper's scientific question and evidence.
+- **Other scientific text:** follow the requested artifact and voice; preserve the distinction between completed work and proposals. Do not transfer thesis chapter conventions into captions, rebuttals or grant text.
+
+These are the user's writing preferences, not a claim that every discipline or publisher uses the same conventions. Explicit user and venue requirements take precedence. Pronouns must never change who is credited with the work.
+
+## Shared practice
+
+- Start with the relevant object, question, definition or observation. Supply necessary context. Do not force a failure-mode opening or manufacture a gap.
+- Explain what a method does and why its consequential choices are needed. Introduce unfamiliar concepts before relying on their names; interpret equations and parameters when the reader needs that help.
+- Make comparisons interpretable: what changes, what stays fixed, why the control is informative, and what the metric measures. Separate measured performance from a proposed explanation.
+- Preserve numbers, units, denominators, uncertainty, citations, conditions and adverse results. Never invent evidence, a mechanism or a limitation to make a passage read smoothly.
+- Use concrete subjects and verbs, stable terminology and connected prose. Remove ornamental phrasing, vague praise and promotional claims. Keep explanatory steps even when this requires more sentences.
+- Match claim strength to the evidence. Keep training, validation and held-out evaluation distinct; name other task-specific distinctions when they affect interpretation.
+- Let paragraphs and sentences vary with their purpose. Do not require a stock contrast, caveat, consequence or summary at the end of each paragraph. Do not add deliberate errors to simulate human writing.
+- Respect the edit scope. A style request does not authorize new experiments, new findings or reassignment of authorship. Review requests should identify concrete changes; edits should preserve good passages as well as correct weak ones.
 
 ## References
 
-- For substantial drafting or style revision, read [style-rules.md](references/style-rules.md).
-- For a particular section, read its entry in [section-patterns.md](references/section-patterns.md).
-- For generic or inflated prose, use [rewrite-patterns.md](references/rewrite-patterns.md).
-- Before delivery, use the relevant items in [checklists.md](references/checklists.md).
-- For calibration against the user's papers, see [paper-style.md](references/paper-style.md). These are style sources, not reusable facts for a new manuscript.
-- For venue and reporting requirements, consult [submission-checks.md](references/submission-checks.md) when relevant. Use `citation-management` for citation discovery or bibliography verification.
+- For substantial drafting or revision, read [style-rules.md](references/style-rules.md).
+- For the relevant section, read [section-patterns.md](references/section-patterns.md); its patterns are options, not mandatory sequences.
+- For generic or compressed prose, use [rewrite-patterns.md](references/rewrite-patterns.md).
+- Before delivery, use the applicable prompts in [checklists.md](references/checklists.md).
+- For thesis exposition examples, see [thesis-examples.md](references/thesis-examples.md). For the user's paper voice, see [paper-style.md](references/paper-style.md). Neither is a source of scientific facts for an unrelated manuscript.
+- The actual documents and searchable texts are indexed in [source-library.md](references/source-library.md). Read selected source passages when needed to apply or check an example; keep the rest out of context.
+- For actual submission or reporting requirements, use [submission-checks.md](references/submission-checks.md). Use `citation-management` when sources or bibliographic support need checking.
