@@ -35,7 +35,8 @@ Apply only the prompts relevant to the document and requested edit. They identif
 - Are terms stable and pronoun referents clear?
 - Is the sentence compressed beyond what a reader can follow?
 - Do consecutive short sentences describe one idea whose relationships would be clearer with coordinating, relative or subordinate clauses?
-- Do repeated claim-colon-evidence constructions or aphorisms interrupt the explanation, and would a revision preserve appropriate colons and the source's logic?
+- Can prose colons become full stops or integrated clauses without creating choppy prose or changing citation scope, and are any retained prose colons needed for a formal list?
+- Do semicolons connect closely related clauses, and do one-line aphorisms interrupt the explanation?
 - Are qualifications placed where they matter, with unnecessary repeats removed?
 - Has a stock gap, contrast, caveat or grand ending been added only to satisfy a pattern?
 - Does each passage stop when it has explained its point?

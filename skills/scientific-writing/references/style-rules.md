@@ -68,7 +68,7 @@ Remove ornamental metaphors, grand declarations, vague importance claims and pro
 
 Plain language does not require uniformly short or syntactically simple sentences. When consecutive sentences develop one idea, use coordination, relative clauses or subordinate clauses to express genuine relationships among examples, conditions, methods and findings. Retain useful short statements and parallel definitions; do not lengthen sentences merely for variety.
 
-Review repeated `short claim: evidence` constructions and one-line aphorisms when they make prose read like a list. Integrate the explanation where clearer, retaining colons for useful lists, definitions or focused examples. A connector must express a relationship the source supports; never add `because`, `therefore`, `while` or `whereas` solely to vary rhythm. Do not change terminology, add typos or force uneven prose to simulate a human voice.
+Review one-line aphorisms when they interrupt the explanation. In running prose, prefer a full stop between complete statements or integrate an example, explanation or list into the sentence. Do not use a colon merely to attach evidence to a short claim. Reserve prose colons for formal lists that would otherwise be harder to read. This preference does not require changing punctuation in reference titles, identifiers or compact table labels. Review whether a semicolon connects closely related clauses or separates distinct statements; do not split mechanically or detach a citation from the claim it supports. A connector must express a relationship the source supports; never add `because`, `therefore`, `while` or `whereas` solely to vary rhythm. Do not change terminology, add typos or force uneven prose to simulate a human voice.
 
 ## Review and revision
 
