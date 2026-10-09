@@ -4,10 +4,11 @@ Choose the document type first. These are options for organizing information, no
 
 ## Abstract
 
-Give the reader the research question, the work performed and the findings needed to understand its contribution. Define an unfamiliar task or term before relying on it. Preserve comparisons, meaningful numerical results, uncertainty and scope.
+Match the abstract to the document type and make it self-contained. For original research, give the reader the research question, the work performed and the findings needed to understand its contribution. Define essential unfamiliar terms and abbreviations, and omit abbreviations that are not reused. Preserve comparisons, meaningful numerical results, uncertainty and scope.
 
 - **Thesis:** connect the research strands to the central question; identify the student's contribution using `I` where supported and joint work explicitly. Include enough context for adjacent-field examiners. Preserve completed versus planned work.
 - **Paper:** use `we` or the method/experiment as subject. Focus on this study and follow the venue's structured or unstructured format. Avoid a catalogue of the thesis's other projects.
+- **Book chapter or narrative review:** summarize the subject, scope and central conclusion. Include named studies and numerical findings only when central to that summary. Do not frame studies with different designs or levels of evidence as direct comparisons. Use subject-specific search terms naturally; follow the actual book or publisher's length, format and keyword instructions, without imposing a universal requirement to repeat every keyword verbatim.
 
 Do not force a limitation-led opening, a mechanism that was not tested, an availability statement or a fixed number of sentences. A numerical result is useful when it carries the main finding, not as a quota.
 

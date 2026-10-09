@@ -32,6 +32,7 @@ The paper presents a defined scientific contribution to readers in its target fi
 
 ## Other scientific text
 
+- **Book chapter:** organize concepts and evidence around the chapter's teaching or synthesis purpose and its place in the book. Its abstract should summarize that scope and the central conclusion; do not automatically use an original-research results format.
 - **Review/perspective:** organize concepts and evidence around the question or synthesis. Do not impose an empirical-paper structure or invent a new experiment. Distinguish a proposed framework from a validated account.
 - **Proposal/grant:** describe planned work as planned. Explain the question, approach, decision criteria and relevant uncertainty. Use the requested individual or team voice; do not present hoped-for results as observations.
 - **Rebuttal:** normally use `we` for the authors. Answer the substantive point, describe the actual change and give its location or evidence. Do not claim a check or experiment was performed unless it was.

@@ -4,7 +4,8 @@ Apply only the prompts relevant to the document and requested edit. They identif
 
 ## Document and authorship
 
-- Is the artifact treated as a thesis, paper, proposal, review, rebuttal or caption?
+- Is the artifact treated as a thesis, paper, book chapter, proposal, review, rebuttal or caption?
+- For a chapter or review abstract, are the subject, scope and central conclusion clear, with examples kept in proportion and the actual length, format and keyword requirements followed?
 - In a thesis, do `I` and `we` match the contribution record? In the user's papers, is the authors' voice `we` rather than a carried-over thesis `I`?
 - Does applying or evaluating a collaborator's method remain distinct from inventing it?
 - Are completed work, prepared resources, proposed integration and future experiments accurately distinguished?
