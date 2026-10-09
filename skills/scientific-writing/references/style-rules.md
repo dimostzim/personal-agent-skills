@@ -66,7 +66,9 @@ Use concrete subjects and verbs: a model predicts, a script computes, an experim
 
 Remove ornamental metaphors, grand declarations, vague importance claims and promotional endings. Phrases such as `unlocks the potential`, `powerful framework`, `sheds light`, `bridges the gap` and `paves the way` usually conceal the operation or result. A term with a precise scientific meaning is not forbidden merely because it is sometimes overused.
 
-Sentence length should follow the explanation. Short statements can identify a result; longer sentences may carry necessary conditions. Do not vary terminology, add typos, or force uneven prose to simulate a human voice. Avoid decorative transitions; use causal or contrastive links only when the logic supports them.
+Plain language does not require uniformly short or syntactically simple sentences. When consecutive sentences develop one idea, use coordination, relative clauses or subordinate clauses to express genuine relationships among examples, conditions, methods and findings. Retain useful short statements and parallel definitions; do not lengthen sentences merely for variety.
+
+Review repeated `short claim: evidence` constructions and one-line aphorisms when they make prose read like a list. Integrate the explanation where clearer, retaining colons for useful lists, definitions or focused examples. A connector must express a relationship the source supports; never add `because`, `therefore`, `while` or `whereas` solely to vary rhythm. Do not change terminology, add typos or force uneven prose to simulate a human voice.
 
 ## Review and revision
 

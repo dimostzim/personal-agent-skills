@@ -34,6 +34,8 @@ Apply only the prompts relevant to the document and requested edit. They identif
 - Does a vague phrase conceal an operation, observation or specific limitation?
 - Are terms stable and pronoun referents clear?
 - Is the sentence compressed beyond what a reader can follow?
+- Do consecutive short sentences describe one idea whose relationships would be clearer with coordinating, relative or subordinate clauses?
+- Do repeated claim-colon-evidence constructions or aphorisms interrupt the explanation, and would a revision preserve appropriate colons and the source's logic?
 - Are qualifications placed where they matter, with unnecessary repeats removed?
 - Has a stock gap, contrast, caveat or grand ending been added only to satisfy a pattern?
 - Does each passage stop when it has explained its point?
